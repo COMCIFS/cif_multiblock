@@ -328,7 +328,7 @@ save_diffrn_measurement.diffrn_id
     A link to a diffraction experiment with which this measurement
     strategy is associated. This is provided for backwards compatibility.
     Where multiple experiments are associated with a particular strategy,
-    use `_diffrn.positioner_id`.
+    use `_diffrn.diffrn_measurement_id`.
 ;
     _name.category_id             diffrn_measurement
     _name.object_id               diffrn_id
