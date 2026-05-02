@@ -10,7 +10,7 @@ data_MULTIBLOCK_DIC
     _dictionary.title             MULTIBLOCK_DIC
     _dictionary.class             Instance
     _dictionary.version           1.1.0
-    _dictionary.date              2026-04-22
+    _dictionary.date              2026-05-02
     _dictionary.uri
 ;\
 https://raw.githubusercontent.com/COMCIFS/cif_multiblock/main/\
@@ -565,7 +565,7 @@ save_
 save_diffrn_detector.id
 
     _definition.id                '_diffrn_detector.id'
-    _definition.update            2025-06-26
+    _definition.update            2026-05-02
     _description.text
 ;
     Unique identifier for a detector description.
@@ -575,7 +575,7 @@ save_diffrn_detector.id
     _type.purpose                 Key
     _type.source                  Assigned
     _type.container               Single
-    _type.contents                Text
+    _type.contents                Word
 
 save_
 
@@ -1500,7 +1500,7 @@ save_
 ;
        All multi-block items from core 3.2.0 added.
 ;
-         1.1.0                    2026-04-22
+         1.1.0                    2026-05-02
 ;
        # Update date above and add audit comments below. Remove
        this comment when ready for release.
@@ -1539,5 +1539,7 @@ save_
        Add DIFFRN_MEASUREMENT category with _diffrn_measurement.id as key.
        Included _diffrn_measurement.diffrn_id to maintain compatibility with
        imgCIF.
+
+       Updated type contents of _diffrn_detector.id to match the mmCIF/PDBx type.
 ;
 
