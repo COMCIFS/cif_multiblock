@@ -252,9 +252,9 @@ save_diffrn.diffrn_measurement_id
     _definition.update            2026-04-22
     _description.text
 ;
-    Identifies the particular combination of sample mount, positioner,
-    and scan strategy used to collect the diffraction data. This is a
-    pointer to _diffrn_measurement.id.
+    Identifies the particular combination of sample mounting, positioning,
+    and measurement strategy used to collect the diffraction data. This is
+    a pointer to _diffrn_measurement.id.
 ;
     _name.category_id             diffrn
     _name.object_id               diffrn_measurement_id
@@ -311,8 +311,8 @@ save_DIFFRN_MEASUREMENT
     _definition.update            2026-04-22
     _description.text
 ;
-    The CATEGORY of data items used to describe the sample mounting
-    and positioning as well as the measurement strategy.
+    The category of data items used to describe the sample mounting,
+    positioning, and measurement strategy.
 ;
     _name.category_id             DIFFRACTION
     _name.object_id               DIFFRN_MEASUREMENT
@@ -329,7 +329,7 @@ save_diffrn_measurement.diffrn_id
     A link to a diffraction experiment with which this measurement
     strategy is associated. This is provided for backwards compatibility.
     Where multiple experiments are associated with a particular strategy,
-    use `_diffrn.diffrn_measurement_id`.
+    use _diffrn.diffrn_measurement_id.
 ;
     _name.category_id             diffrn_measurement
     _name.object_id               diffrn_id
