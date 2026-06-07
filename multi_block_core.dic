@@ -1396,6 +1396,25 @@ save_structure.space_group_id
 
 save_
 
+save_structure.space_group_magn_id
+
+    _definition.id                '_structure.space_group_magn_id'
+    _definition.update            2026-06-07
+    _description.text
+;
+    A code which identifies the magnetic space group associated with the
+    structure.
+;
+    _name.category_id             structure
+    _name.object_id               space_group_magn_id
+    _name.linked_item_id          '_space_group_magn.id'
+    _type.purpose                 Link
+    _type.source                  Assigned
+    _type.container               Single
+    _type.contents                Word
+
+save_
+
 save_ATOM_SITE
 
     _definition.id                ATOM_SITE
