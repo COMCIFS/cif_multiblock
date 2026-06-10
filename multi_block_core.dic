@@ -835,7 +835,7 @@ save_space_group.id
     Unique identifier for a space group.
 
     Two space groups can share the same identifier if and only if they have
-    the same space group name, number, setting, and have their their symmetry
+    the same space group name, number, setting, and have their symmetry
     operations listed with the same symop ids (see SPACE_GROUP_SYMOP).
 ;
     _name.category_id             space_group
